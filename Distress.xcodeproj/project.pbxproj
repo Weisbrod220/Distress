@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9557F0741C122CC800F43729 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9557F0731C122CC800F43729 /* AppDelegate.swift */; };
+		9557F0761C122CC800F43729 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9557F0751C122CC800F43729 /* ViewController.swift */; };
+		9557F0791C122CC800F43729 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9557F0771C122CC800F43729 /* Main.storyboard */; };
+		9557F07B1C122CC800F43729 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9557F07A1C122CC800F43729 /* Assets.xcassets */; };
+		9557F07E1C122CC800F43729 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9557F07C1C122CC800F43729 /* LaunchScreen.storyboard */; };
+		9557F0831C122CC800F43729 /* Distress WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 9557F0821C122CC800F43729 /* Distress WatchKit App.app */; };
+		9557F0891C122CC800F43729 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9557F0871C122CC800F43729 /* Interface.storyboard */; };
+		9557F08B1C122CC800F43729 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9557F08A1C122CC800F43729 /* Assets.xcassets */; };
+		9557F0921C122CC800F43729 /* Distress WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9557F0911C122CC800F43729 /* Distress WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9557F0971C122CC800F43729 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9557F0961C122CC800F43729 /* InterfaceController.swift */; };
+		9557F0991C122CC800F43729 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9557F0981C122CC800F43729 /* ExtensionDelegate.swift */; };
+		9557F09B1C122CC800F43729 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9557F09A1C122CC800F43729 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9557F0841C122CC800F43729 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9557F0681C122CC800F43729 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9557F0811C122CC800F43729;
+			remoteInfo = "Distress WatchKit App";
+		};
+		9557F0931C122CC800F43729 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9557F0681C122CC800F43729 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9557F0901C122CC800F43729;
+			remoteInfo = "Distress WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9557F0A21C122CC800F43729 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				9557F0921C122CC800F43729 /* Distress WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9557F0A61C122CC800F43729 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				9557F0831C122CC800F43729 /* Distress WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9557F0701C122CC800F43729 /* Distress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Distress.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9557F0731C122CC800F43729 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9557F0751C122CC800F43729 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9557F0781C122CC800F43729 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9557F07A1C122CC800F43729 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9557F07D1C122CC800F43729 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9557F07F1C122CC800F43729 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9557F0821C122CC800F43729 /* Distress WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Distress WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9557F0881C122CC800F43729 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		9557F08A1C122CC800F43729 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9557F08C1C122CC800F43729 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9557F0911C122CC800F43729 /* Distress WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Distress WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9557F0961C122CC800F43729 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		9557F0981C122CC800F43729 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		9557F09A1C122CC800F43729 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9557F09C1C122CC800F43729 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9557F06D1C122CC800F43729 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9557F08E1C122CC800F43729 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9557F0671C122CC800F43729 = {
+			isa = PBXGroup;
+			children = (
+				9557F0721C122CC800F43729 /* Distress */,
+				9557F0861C122CC800F43729 /* Distress WatchKit App */,
+				9557F0951C122CC800F43729 /* Distress WatchKit Extension */,
+				9557F0711C122CC800F43729 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9557F0711C122CC800F43729 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9557F0701C122CC800F43729 /* Distress.app */,
+				9557F0821C122CC800F43729 /* Distress WatchKit App.app */,
+				9557F0911C122CC800F43729 /* Distress WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9557F0721C122CC800F43729 /* Distress */ = {
+			isa = PBXGroup;
+			children = (
+				9557F0731C122CC800F43729 /* AppDelegate.swift */,
+				9557F0751C122CC800F43729 /* ViewController.swift */,
+				9557F0771C122CC800F43729 /* Main.storyboard */,
+				9557F07A1C122CC800F43729 /* Assets.xcassets */,
+				9557F07C1C122CC800F43729 /* LaunchScreen.storyboard */,
+				9557F07F1C122CC800F43729 /* Info.plist */,
+			);
+			path = Distress;
+			sourceTree = "<group>";
+		};
+		9557F0861C122CC800F43729 /* Distress WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				9557F0871C122CC800F43729 /* Interface.storyboard */,
+				9557F08A1C122CC800F43729 /* Assets.xcassets */,
+				9557F08C1C122CC800F43729 /* Info.plist */,
+			);
+			path = "Distress WatchKit App";
+			sourceTree = "<group>";
+		};
+		9557F0951C122CC800F43729 /* Distress WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				9557F0961C122CC800F43729 /* InterfaceController.swift */,
+				9557F0981C122CC800F43729 /* ExtensionDelegate.swift */,
+				9557F09A1C122CC800F43729 /* Assets.xcassets */,
+				9557F09C1C122CC800F43729 /* Info.plist */,
+			);
+			path = "Distress WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9557F06F1C122CC800F43729 /* Distress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9557F0A71C122CC800F43729 /* Build configuration list for PBXNativeTarget "Distress" */;
+			buildPhases = (
+				9557F06C1C122CC800F43729 /* Sources */,
+				9557F06D1C122CC800F43729 /* Frameworks */,
+				9557F06E1C122CC800F43729 /* Resources */,
+				9557F0A61C122CC800F43729 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9557F0851C122CC800F43729 /* PBXTargetDependency */,
+			);
+			name = Distress;
+			productName = Distress;
+			productReference = 9557F0701C122CC800F43729 /* Distress.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9557F0811C122CC800F43729 /* Distress WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9557F0A31C122CC800F43729 /* Build configuration list for PBXNativeTarget "Distress WatchKit App" */;
+			buildPhases = (
+				9557F0801C122CC800F43729 /* Resources */,
+				9557F0A21C122CC800F43729 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9557F0941C122CC800F43729 /* PBXTargetDependency */,
+			);
+			name = "Distress WatchKit App";
+			productName = "Distress WatchKit App";
+			productReference = 9557F0821C122CC800F43729 /* Distress WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		9557F0901C122CC800F43729 /* Distress WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9557F09F1C122CC800F43729 /* Build configuration list for PBXNativeTarget "Distress WatchKit Extension" */;
+			buildPhases = (
+				9557F08D1C122CC800F43729 /* Sources */,
+				9557F08E1C122CC800F43729 /* Frameworks */,
+				9557F08F1C122CC800F43729 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Distress WatchKit Extension";
+			productName = "Distress WatchKit Extension";
+			productReference = 9557F0911C122CC800F43729 /* Distress WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9557F0681C122CC800F43729 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Evan Weisbrod";
+				TargetAttributes = {
+					9557F06F1C122CC800F43729 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					9557F0811C122CC800F43729 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					9557F0901C122CC800F43729 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 9557F06B1C122CC800F43729 /* Build configuration list for PBXProject "Distress" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9557F0671C122CC800F43729;
+			productRefGroup = 9557F0711C122CC800F43729 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9557F06F1C122CC800F43729 /* Distress */,
+				9557F0811C122CC800F43729 /* Distress WatchKit App */,
+				9557F0901C122CC800F43729 /* Distress WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9557F06E1C122CC800F43729 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9557F07E1C122CC800F43729 /* LaunchScreen.storyboard in Resources */,
+				9557F07B1C122CC800F43729 /* Assets.xcassets in Resources */,
+				9557F0791C122CC800F43729 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9557F0801C122CC800F43729 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9557F08B1C122CC800F43729 /* Assets.xcassets in Resources */,
+				9557F0891C122CC800F43729 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9557F08F1C122CC800F43729 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9557F09B1C122CC800F43729 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9557F06C1C122CC800F43729 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9557F0761C122CC800F43729 /* ViewController.swift in Sources */,
+				9557F0741C122CC800F43729 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9557F08D1C122CC800F43729 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9557F0991C122CC800F43729 /* ExtensionDelegate.swift in Sources */,
+				9557F0971C122CC800F43729 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9557F0851C122CC800F43729 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9557F0811C122CC800F43729 /* Distress WatchKit App */;
+			targetProxy = 9557F0841C122CC800F43729 /* PBXContainerItemProxy */;
+		};
+		9557F0941C122CC800F43729 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9557F0901C122CC800F43729 /* Distress WatchKit Extension */;
+			targetProxy = 9557F0931C122CC800F43729 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9557F0771C122CC800F43729 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9557F0781C122CC800F43729 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9557F07C1C122CC800F43729 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9557F07D1C122CC800F43729 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		9557F0871C122CC800F43729 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9557F0881C122CC800F43729 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9557F09D1C122CC800F43729 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9557F09E1C122CC800F43729 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9557F0A01C122CC800F43729 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Distress WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cuw.Distress.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		9557F0A11C122CC800F43729 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Distress WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cuw.Distress.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		9557F0A41C122CC800F43729 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = Distress_WatchKit_Extension;
+				INFOPLIST_FILE = "Distress WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = cuw.Distress.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		9557F0A51C122CC800F43729 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = Distress_WatchKit_Extension;
+				INFOPLIST_FILE = "Distress WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = cuw.Distress.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		9557F0A81C122CC800F43729 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Distress/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cuw.Distress;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9557F0A91C122CC800F43729 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Distress/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cuw.Distress;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9557F06B1C122CC800F43729 /* Build configuration list for PBXProject "Distress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9557F09D1C122CC800F43729 /* Debug */,
+				9557F09E1C122CC800F43729 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9557F09F1C122CC800F43729 /* Build configuration list for PBXNativeTarget "Distress WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9557F0A01C122CC800F43729 /* Debug */,
+				9557F0A11C122CC800F43729 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9557F0A31C122CC800F43729 /* Build configuration list for PBXNativeTarget "Distress WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9557F0A41C122CC800F43729 /* Debug */,
+				9557F0A51C122CC800F43729 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9557F0A71C122CC800F43729 /* Build configuration list for PBXNativeTarget "Distress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9557F0A81C122CC800F43729 /* Debug */,
+				9557F0A91C122CC800F43729 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9557F0681C122CC800F43729 /* Project object */;
+}
