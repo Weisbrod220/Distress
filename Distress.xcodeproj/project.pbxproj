@@ -19,6 +19,8 @@
 		9557F0971C122CC800F43729 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9557F0961C122CC800F43729 /* InterfaceController.swift */; };
 		9557F0991C122CC800F43729 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9557F0981C122CC800F43729 /* ExtensionDelegate.swift */; };
 		9557F09B1C122CC800F43729 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9557F09A1C122CC800F43729 /* Assets.xcassets */; };
+		9557F0AB1C122D4800F43729 /* GridCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9557F0AA1C122D4800F43729 /* GridCVC.swift */; settings = {ASSET_TAGS = (); }; };
+		9557F0AD1C122E9500F43729 /* CustomCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9557F0AC1C122E9500F43729 /* CustomCVCell.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +82,8 @@
 		9557F0981C122CC800F43729 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		9557F09A1C122CC800F43729 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9557F09C1C122CC800F43729 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9557F0AA1C122D4800F43729 /* GridCVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridCVC.swift; sourceTree = "<group>"; };
+		9557F0AC1C122E9500F43729 /* CustomCVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCVCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +133,8 @@
 				9557F07A1C122CC800F43729 /* Assets.xcassets */,
 				9557F07C1C122CC800F43729 /* LaunchScreen.storyboard */,
 				9557F07F1C122CC800F43729 /* Info.plist */,
+				9557F0AA1C122D4800F43729 /* GridCVC.swift */,
+				9557F0AC1C122E9500F43729 /* CustomCVCell.swift */,
 			);
 			path = Distress;
 			sourceTree = "<group>";
@@ -285,6 +291,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9557F0AB1C122D4800F43729 /* GridCVC.swift in Sources */,
+				9557F0AD1C122E9500F43729 /* CustomCVCell.swift in Sources */,
 				9557F0761C122CC800F43729 /* ViewController.swift in Sources */,
 				9557F0741C122CC800F43729 /* AppDelegate.swift in Sources */,
 			);
